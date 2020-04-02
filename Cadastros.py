@@ -7,7 +7,7 @@ def cadastroprofessor():
     arq.write(dep)
     arq.write(" | ")
     while True:
-        cpf = input("Digite o CPF do novo professor(a)")
+        cpf = input("Digite o CPF do novo professor(a): ")
         if cpf.isnumeric() and len(cpf) == 11:
             arq.write(cpf)
             break
@@ -54,4 +54,5 @@ def cadastrodisciplina():
 
 
     
-        
+cadastroaluno()
+
