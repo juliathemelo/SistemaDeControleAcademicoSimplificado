@@ -54,5 +54,5 @@ def cadastrodisciplina():
 
 
     
-cadastroaluno()
+cadastrodisciplina()
 

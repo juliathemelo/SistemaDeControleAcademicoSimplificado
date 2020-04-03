@@ -140,6 +140,6 @@ def atualizardisciplina():
 
 
 
-
+atualizardisciplina()
 
 
